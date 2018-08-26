@@ -1,0 +1,2 @@
+# CrossICCtest
+Example for run CrossICC on breast cancer data in our recent article. In this project, we first collected expression data from seven published research. Three clustering strategies were performed on this data to get consensus subtypes across batches, including directly consensus clustering, clustering after batch removing and clustering by CrossICC. Here, we show a step by step R code for doing such analysis.
