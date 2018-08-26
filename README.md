@@ -6,6 +6,7 @@ Example for run CrossICC on breast cancer data in our recent article. In this pr
 ## Required R libraries
 ConsensusClusterPlus<br>survival<br>survminer<br>ggsci<br>sva<br>CrossICC<br>RColorBrewer  
 
+## Figs
 #### Show the PCA results for datasets without removing batch effect and clustering results with ConsensusClusterPlus
 ![github](https://github.com/xiucai-lzk/CrossICCtest/blob/master/jpeg/NotRemoveBatchPCAplot.jpeg "github")
 
