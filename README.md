@@ -19,6 +19,9 @@ ConsensusClusterPlus<br>survival<br>survminer<br>ggsci<br>sva<br>CrossICC<br>RCo
 #### Show the survival curve after grouping datasetswith have removed batch effect with ConsensusClusterPlus
 ![github](https://github.com/xiucai-lzk/CrossICCtest/blob/master/jpeg/BreastSurvival-RemoveBatcPlot.jpeg "github")
 
+#### Show the PCA result and CrossICC result of datasets that haven't removed batch effect
+![github](https://github.com/xiucai-lzk/CrossICCtest/blob/master/jpeg/BreastSurvival-CrossICCplot.jpeg "github")
+
 #### Show the survival curve after grouping datasetswith without removing batch effect with CrossICC
 ![github](https://github.com/xiucai-lzk/CrossICCtest/blob/master/jpeg/BreastSurvival-CrossICCplot.jpeg "github")
 
