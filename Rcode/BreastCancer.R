@@ -282,7 +282,7 @@ ggsave(CrossICC_pca_plot, filename = "/data3/liuzk/CrossICCtest/plot/CrossICC-PC
 
 
 #### plot heatmap for each matrix by signature genes ####
-for(k in 1:length(unique(CrossICCclusterResult$cluster))){
+for(k in 1:7){
   plot.matrix<-as.data.frame(CrossICCtestRes$platforms[[k]])
   if(class(CrossICCtestRes$clusters$clusters)=="list"){
     cluster.table<-CrossICCtestRes$clusters$clusters[[k]]
@@ -290,7 +290,7 @@ for(k in 1:length(unique(CrossICCclusterResult$cluster))){
     cluster.table<-CrossICCtestRes$clusters$clusters
   }
   gsig<-CrossICCtestRes$gene.order[[k]]
-  pdf(paste("/data3/liuzk/CrossICCtest/plot/CrossICC-Cluster", k, "-heatmap.pdf", sep = ""))
+  pdf(paste("/data3/liuzk/CrossICCtest/plot/CrossICC-Dataset", k, "-heatmap.pdf", sep = ""))
   plot_expression_heatmap_with_cluster(plot.matrix,cluster.table,gsig,cluster_row = FALSE,showRowname = FALSE)
   dev.off()
 }
